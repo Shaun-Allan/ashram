@@ -80,8 +80,28 @@ button{
 
 .login{
     padding: 10px 40px 10px 40px;
-    margin-left: auto;
-    margin-right: 5%;
+}
+
+
+.sign-up{
+    position: relative;
+}
+.sign-up-dropdown{
+    text-align: center;
+    position: absolute;
+}
+.sign-up-dropdown ul li{
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(153, 87, 0);
+    
+}
+.sign-up-dropdown ul li:last-child{
+    border-top: 1px solid black;
+}
+.sign-up-dropdown ul li a{
+    text-decoration: none;
+    color: black;
 }
 
 .filter{
@@ -176,7 +196,7 @@ button{
     word-spacing: 5px;
     text-indent: 5%;
     margin-top: 20px;
-    font-size: 19px;
+    font-size: 19px
 }
 
 
